@@ -3,18 +3,18 @@ package task1
 import java.time.LocalDateTime
 
 data class Post (
-    val id:UInt,
-    val ownerId:UInt,
+    val id:Int,
+/*    val ownerId:UInt,
     val fromId:UInt,
-    val createdBy:UInt,
+    val createdBy:UInt,*/
     val date:LocalDateTime,
     val text:String,
-    val replyOwnerId:UInt,
+/*    val replyOwnerId:UInt,
     val replyPostId:UInt,
     val friendsOnly:Boolean,
     val comments:Comment,
-    val copyright:Copyright,
-    val likes:Like,
+    val copyright:Copyright,*/
+/*    val likes:Like,
     val reposts:Repost,
     val views:View,
     val postType:String,
@@ -26,7 +26,7 @@ data class Post (
     val markedAsAds:Boolean,
     val isFavorite:Boolean,
     val donut:Donut,
-    val postponedId:UInt
+    val postponedId:UInt*/
         ){
     fun equals(other: Post): Boolean {
         if (this === other) return true
