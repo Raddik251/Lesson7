@@ -7,6 +7,16 @@ import java.time.LocalDateTime
 
 class Main1KtTest {
 
+    val attachmentForTest = AttachmentVideo(
+        "Video", video = Video(
+            id = 1,
+            type = "mp4",
+            size = 11024,
+            duration = 600,
+            name = "Поздравление с днем рождения"
+        )
+    )
+
     @Test
     fun testAdd() {
         //arrange
@@ -17,12 +27,14 @@ class Main1KtTest {
         val idTest = 50
         val dateTest = LocalDateTime.now()
         val textTest = "Тестовый пост"
+        val attachmentTest = arrayOf<Attachment>(attachmentForTest)
 
         //act
         val post = Post(
             id = idTest,
             date = dateTest,
-            text = textTest
+            text = textTest,
+            attachment = attachmentTest
         )
         posts.add(post)
 
@@ -44,9 +56,10 @@ class Main1KtTest {
         var i = 1
         for (i in 1..5) {
             val post = Post(
-                id = idTest+i,
+                id = idTest + i,
                 date = dateTest,
-                text = "Тестовый пост № $i"
+                text = "Тестовый пост № $i",
+                attachment = arrayOf<Attachment>(attachmentForTest)
             )
             posts.add(post)
         }
@@ -54,12 +67,13 @@ class Main1KtTest {
         val postUpdateTrue = Post(
             id = 104,
             date = dateTest,
-            text = "Обновленный пост"
+            text = "Обновленный пост",
+            attachment = arrayOf<Attachment>(attachmentForTest)
         )
 
         posts.update(postUpdateTrue)
 
-        var checkUpdate = posts.showSearch(postUpdateTrue)
+        var checkUpdate = posts.checkUpdate(postUpdateTrue)
 
 
         //assert
@@ -80,9 +94,10 @@ class Main1KtTest {
         var i = 1
         for (i in 1..5) {
             val post = Post(
-                id = idTest+i,
+                id = idTest + i,
                 date = dateTest,
-                text = "Тестовый пост № $i"
+                text = "Тестовый пост № $i",
+                attachment = arrayOf<Attachment>(attachmentForTest)
             )
             posts.add(post)
         }
@@ -90,12 +105,13 @@ class Main1KtTest {
         val postUpdateTrue = Post(
             id = 504,
             date = dateTest,
-            text = "Обновленный пост"
+            text = "Обновленный пост",
+            attachment = arrayOf<Attachment>(attachmentForTest)
         )
 
         posts.update(postUpdateTrue)
 
-        var checkUpdate = posts.showSearch(postUpdateTrue)
+        var checkUpdate = posts.checkUpdate(postUpdateTrue)
 
 
         //assert

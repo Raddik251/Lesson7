@@ -26,7 +26,7 @@ class WallService (posts:Array<Post>){
         return posts.last()
     }
 
-    fun showSearch (postIn: Post): Boolean {
+    fun checkUpdate (postIn: Post): Boolean {
         return if (postIn in posts) {
             return true
         } else false
