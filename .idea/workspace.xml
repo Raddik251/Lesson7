@@ -4,18 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6070b2d1-bfb8-4ceb-84b1-4998a4f86be2" name="Changes" comment="Complete tasks for Lesson5">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/task1/Archive.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/task1/Attachment.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/task1/Audio.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/task1/Document.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/task1/Photo.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/task1/Video.kt" afterDir="false" />
+    <list default="true" id="6070b2d1-bfb8-4ceb-84b1-4998a4f86be2" name="Changes" comment="Complete tasks for Lesson 6">
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/task1/Thread.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/task1/donutComment.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/task1/Main1.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/task1/Main1.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/jacocoHtml/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/jacocoHtml/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/task1/Comment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/task1/Comment.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/kotlin/task1/Post.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/task1/Post.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/kotlin/task1/WallService.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/task1/WallService.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/kotlin/task1/Main1KtTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/kotlin/task1/Main1KtTest.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -207,7 +204,14 @@
       <option name="project" value="LOCAL" />
       <updated>1659166217265</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Complete tasks for Lesson 6">
+      <created>1659260642450</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1659260642450</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -225,6 +229,7 @@
     <MESSAGE value="Add start settings" />
     <MESSAGE value="Try1. Program error" />
     <MESSAGE value="Complete tasks for Lesson5" />
-    <option name="LAST_COMMIT_MESSAGE" value="Complete tasks for Lesson5" />
+    <MESSAGE value="Complete tasks for Lesson 6" />
+    <option name="LAST_COMMIT_MESSAGE" value="Complete tasks for Lesson 6" />
   </component>
 </project>
