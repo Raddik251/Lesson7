@@ -12,7 +12,7 @@ data class Post(
 /*    val replyOwnerId:UInt,
     val replyPostId:UInt,
     val friendsOnly:Boolean,*/
-    val comments: Comment?,
+    val comments: Comment? = Comment(),
 /*    val copyright:Copyright,*/
     val likes: Like? = Like(),
     val reposts: Repost? = Repost(),

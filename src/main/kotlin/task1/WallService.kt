@@ -42,11 +42,12 @@ class WallService(posts: Array<Post>) {
             }
         }
         if (b != 0) {
+            println("Комментарий добавлен")
             return comments.last()
-        }
-        throw PostNotFoundException ("Пост, на который ссылается комментарий не найден")
+        } else
+            throw PostNotFoundException("Пост, на который ссылается комментарий не найден")
     }
 }
 
-class PostNotFoundException(s: String) : Throwable() {
+class PostNotFoundException(message: String) : Exception(message) {
 }

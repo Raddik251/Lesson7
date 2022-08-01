@@ -3,15 +3,15 @@ package task1
 import java.time.LocalDateTime
 
 class Comment (
-    val id:Int,
-    val fromId:Int?,
-    val date:LocalDateTime,
-    val text:String,
-    val donutComment: donutComment?,
-    val replyToUser:Int?,
-    val replyToComment:Int?,
-    val attachment: Attachment?,
-    val parentsStack:Array<Int>?,
-    val thread: task1.Thread?
+    val id:Int = 0,
+    val fromId:Int = 0,
+    val date:LocalDateTime = LocalDateTime.now(),
+    val text:String = "Пустой комментарий",
+    val donutComment: donutComment? = null,
+    val replyToUser:Int? = null,
+    val replyToComment:Int? = null,
+    val attachment: Attachment? = null,
+    val parentsStack:Array<Int>? = null,
+    val thread: task1.Thread? = null
         ){
 }

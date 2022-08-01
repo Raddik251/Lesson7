@@ -4,15 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6070b2d1-bfb8-4ceb-84b1-4998a4f86be2" name="Changes" comment="Complete tasks for Lesson 6">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/task1/Thread.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/task1/donutComment.kt" afterDir="false" />
+    <list default="true" id="6070b2d1-bfb8-4ceb-84b1-4998a4f86be2" name="Changes" comment="Create task 1 for Lesson 7 (Exceptions)">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/jacocoHtml/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/jacocoHtml/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/reports/tests/test/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/kotlin/task1/Comment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/task1/Comment.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/task1/Main1.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/task1/Main1.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/kotlin/task1/Post.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/task1/Post.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/kotlin/task1/WallService.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/task1/WallService.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/kotlin/task1/Main1KtTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/kotlin/task1/Main1KtTest.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,9 +47,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JUnit4 Test Class" />
         <option value="Class" />
         <option value="Kotlin Class" />
+        <option value="JUnit4 Test Class" />
       </list>
     </option>
   </component>
@@ -65,18 +65,19 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit4&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4&quot;: &quot;&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/rad25/IdeaProjects/Lesson3&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit4",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4": "",
+    "last_opened_file_path": "C:/Users/rad25/IdeaProjects/Lesson3",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "run.code.analysis.last.selected.profile": "pProject Default"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
@@ -90,7 +91,7 @@
       <command value="gradle test" />
     </option>
   </component>
-  <component name="RunManager" selected="Gradle.Lesson5 [test]">
+  <component name="RunManager" selected="Gradle.Main1KtTest.shouldAddComment">
     <configuration name="Lesson5 [test]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -135,6 +136,29 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
+    <configuration name="Main1KtTest.shouldAddComment" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;task1.Main1KtTest.shouldAddComment&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
     <configuration name="Main1KtTest.testUddateTrue" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -167,6 +191,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.Main1KtTest.shouldAddComment" />
         <item itemvalue="Kotlin.Main1Kt" />
         <item itemvalue="Gradle.Main1KtTest" />
         <item itemvalue="Gradle.Main1KtTest.testUddateTrue" />
@@ -211,7 +236,14 @@
       <option name="project" value="LOCAL" />
       <updated>1659260642450</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Create task 1 for Lesson 7 (Exceptions)">
+      <created>1659372972531</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1659372972531</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -230,6 +262,7 @@
     <MESSAGE value="Try1. Program error" />
     <MESSAGE value="Complete tasks for Lesson5" />
     <MESSAGE value="Complete tasks for Lesson 6" />
-    <option name="LAST_COMMIT_MESSAGE" value="Complete tasks for Lesson 6" />
+    <MESSAGE value="Create task 1 for Lesson 7 (Exceptions)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Create task 1 for Lesson 7 (Exceptions)" />
   </component>
 </project>

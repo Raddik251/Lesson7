@@ -117,4 +117,50 @@ class Main1KtTest {
         //assert
         assertEquals(false, checkUpdate)
     }
+
+    @Test
+    fun shouldAddComment() {
+        //arrange
+        var posts = WallService(
+            posts = emptyArray()
+        )
+
+        var commentForCheck = Comment(id = 1, text = "Пост классный, лайк")
+
+        var checkComment = "Комментарий не добавлен, пост не найден"
+
+        //act
+
+        for (i in 1..5) {
+            val post = Post(
+                id = 0 + i,
+                date = LocalDateTime.now(),
+                text = "Тестовый пост № $i",
+                attachment = arrayOf<Attachment>(attachmentForTest)
+            )
+            posts.add(post)
+        }
+
+        if (posts.createComment(2, commentForCheck) == commentForCheck) {
+            checkComment = "Комментарии совпали"
+        }
+
+        //assert
+        assertEquals("Комментарии совпали", checkComment)
+
+    }
+
+    @Test(expected = PostNotFoundException::class)
+    fun shouldThrow() {
+        //arrange
+        var posts = WallService(
+            posts = emptyArray()
+        )
+
+        var commentForCheck = Comment(id = 1, text = "Пост классный, лайк")
+
+        //act
+        posts.createComment(15, commentForCheck)
+
+    }
 }

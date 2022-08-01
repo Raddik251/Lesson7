@@ -10,6 +10,8 @@ fun main() {
     var idDocument = 0
     var idArchive = 0
 
+    var idComments = 0
+
     var song = Audio(
         id = idAudio++,
         type = "mp3",
@@ -84,4 +86,13 @@ fun main() {
     posts.update(postUpdate)
 
     println(posts.showLast().text)
+
+    var goodComment = Comment(id = idComments++, text = "Пост классный, лайк")
+
+    var badComment = Comment(id = 15, text = "Пост такой себе, дизлайк")
+
+    posts.createComment(2, goodComment)
+
+    posts.createComment(15, badComment)
+
 }
